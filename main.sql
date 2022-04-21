@@ -1,4 +1,6 @@
-SELECT "Create table department";
+.header on
+.mode column
+pragma foreign_keys = on; 
 
 CREATE TABLE department (
    id int not null primary key, 
@@ -7,8 +9,6 @@ CREATE TABLE department (
    location varchar(40) 
 );
 
-
-SELECT "Create table manager";
 CREATE TABLE manager (
    id int not null primary key, 
    name varchar(6),

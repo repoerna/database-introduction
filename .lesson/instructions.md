@@ -178,3 +178,16 @@ Basic syntax:
 ```
 DELETE FROM table_name WHERE some_condition;
 ```
+
+## Assignment
+1. Finish SQL on main.sql to create `Office Database`
+![image](assets/office.png)
+Your database must be:
+  - have 3 tables:
+    - Department
+    - Manager
+    - Employee
+  - Table `manager` must have `foreign key` to table `department`
+  - Table `employee` must have `foreign key` to table `manager`
+
+2. Insert 5 data to table employee 
